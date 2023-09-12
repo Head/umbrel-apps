@@ -4,7 +4,7 @@ name: Unifi
 tagline: Unifi Network Controller
 icon: https://www.svgrepo.com/show/349542/ubiquiti.svg
 category: Networking
-version: "1.0.0"
+version: "1.0.1"
 port: 8443
 description: >-
   Copy of the LinuxServer.io Unifi Network Controller
