@@ -5,7 +5,7 @@ services:
       environment:
         # The format here is: <app-id>_<docker-service-name>_1
         APP_HOST: head-unifi_unifi-controller_1
-        APP_PORT: 8443
+        APP_PORT: 8442
         
   unifi-controller:
     image: lscr.io/linuxserver/unifi-controller:latest
