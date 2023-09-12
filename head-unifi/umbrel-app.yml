@@ -13,7 +13,7 @@ developer: LinuxServer
 website: https://www.linuxserver.io/
 submitter: Head
 submission: https://github.com/Head/umbrel-apps
-repo: https://github.com/Head/umbrel-apps
+repo: https://github.com/linuxserver/docker-unifi-controller
 support: https://github.com/linuxserver/docker-unifi-controller/issues
 gallery:
   - https://img.community.ui.com/b1ad65ed-c921-409d-a05d-b8275e780ae9/releases/d05b091f-f00c-4ebb-8f42-b77e0adac78b/5e7acd5b-bcea-4f65-a404-37d55f993456
