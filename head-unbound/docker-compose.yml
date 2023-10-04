@@ -13,7 +13,7 @@ services:
     environment:
       - TZ=Etc/UTC
     volumes:
-      - ${APP_DATA_DIR}/data/config/pi-hole.conf:/opt/unbound/etc/unbound/pi-hole.conf:ro
+      - ${APP_DATA_DIR}/data/config/:/opt/unbound/etc/unbound/
     ports:
       - 5335:5335/tcp
       - 5335:5335/udp
