@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: head-unbound
+name: Unbound
+tagline: Unbound DNS Server
+icon: https://nlnetlabs.nl/static/logos/Unbound/Unbound_FC_Shaded_cropped.svg
+category: Networking
+version: "1.0.3"
+port: 53
+description: >-
+  Copy of the Unbound DNS Server Docker Image
+
+developer: LinuxServer
+website: https://github.com/MatthewVance/unbound-docker
+submitter: Head
+submission: https://github.com/Head/umbrel-apps
+repo: https://github.com/MatthewVance/unbound-docker
+support: https://github.com/MatthewVance/unbound-docker/issues
+gallery:
+releaseNotes: >-
+  First version with Unbound 1.18.0
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
