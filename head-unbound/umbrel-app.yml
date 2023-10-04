@@ -21,9 +21,8 @@ gallery:
   - 3.jpg
 releaseNotes: >-
   First version with Unbound 1.18.0
-dependencies: [
+dependencies: 
   - pi-hole
-]
 path: ""
 defaultUsername: ""
 defaultPassword: ""
