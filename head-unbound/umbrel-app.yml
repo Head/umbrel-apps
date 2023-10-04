@@ -16,9 +16,14 @@ submission: https://github.com/Head/umbrel-apps
 repo: https://github.com/MatthewVance/unbound-docker
 support: https://github.com/MatthewVance/unbound-docker/issues
 gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 releaseNotes: >-
   First version with Unbound 1.18.0
-dependencies: []
+dependencies: [
+  - pi-hole
+]
 path: ""
 defaultUsername: ""
 defaultPassword: ""

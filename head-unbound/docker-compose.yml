@@ -8,7 +8,7 @@ services:
   #      APP_PORT: 5335
         
   unbound:
-    image: mvance/unbound:latest
+    image: mvance/unbound-docker-rpi:latest
     container_name: unbound
     environment:
       - PUID=1000
