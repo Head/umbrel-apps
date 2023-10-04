@@ -15,6 +15,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config/:/opt/unbound/etc/unbound/
     ports:
-      - 5335:5335/tcp
-      - 5335:5335/udp
+      - 5335:53/tcp
+      - 5335:53/udp
     restart: unless-stopped
