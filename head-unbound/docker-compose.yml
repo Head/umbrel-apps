@@ -8,7 +8,7 @@ services:
   #      APP_PORT: 5335
         
   unbound:
-    image: mvance/unbound-rpi:1.14.0
+    image: mvance/unbound-rpi
     container_name: unbound
     environment:
       - TZ=Etc/UTC
