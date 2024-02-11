@@ -2,7 +2,7 @@ manifestVersion: 1
 id: head-unbound
 name: Unbound
 tagline: Unbound DNS Server
-icon: https://nlnetlabs.nl/static/logos/Unbound/Unbound_FC_Shaded_cropped.svg
+icon: https://netdata.cloud/img/unbound.png
 category: Networking
 version: "1.0.3"
 port: 53
