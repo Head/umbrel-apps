@@ -8,7 +8,7 @@ services:
         APP_PORT: 8442
         
   unifi-controller:
-    image: lscr.io/linuxserver/unifi-controller:latest
+    image: lscr.io/linuxserver/unifi-controller:8.0.24-ls221
     container_name: unifi-controller
     environment:
       - PUID=1000
@@ -17,15 +17,15 @@ services:
       - MEM_LIMIT=1024 #optional
       - MEM_STARTUP=1024 #optional
     volumes:
-      - ${APP_DATA_DIR}/data:/data
-    ports:
-      - 8443:8443
-      - 3478:3478/udp
-      - 10001:10001/udp
-      - 8080:8080
-      # - 1900:1900/udp #optional
-      - 8843:8843 #optional
-      - 8880:8880 #optional
-      - 6789:6789 #optional
-      - 5514:5514/udp #optional
+      - ${APP_DATA_DIR}/config:/config
+    ports: # referece: https://help.ui.com/hc/en-us/articles/218506997-UniFi-Network-Required-Ports-Reference
+      # - 1900:1900/udp # optional UPnP
+      - 3478:3478/udp   # STUN
+      - 5514:5514/udp   # optional remote syslog capture
+      - 6789:6789       # optional Speed test
+      - 8080:8080       # Device/controller comm.
+      - 8443:8443       # Controller GUI/API as seen in a web browser
+      - 8843:8843       # optional HTTPS portal redirection
+      - 8880:8880       # optional HTTP portal redirection
+      - 10001:10001/udp # AP discovery
     restart: unless-stopped
