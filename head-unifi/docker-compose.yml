@@ -1,12 +1,6 @@
 version: "3.7"
 services:
 
-  app_proxy:
-      environment:
-        # The format here is: <app-id>_<docker-service-name>_1
-        APP_HOST: head-unifi_unifi-controller_1
-        APP_PORT: 8442
-        
   unifi-controller:
     image: lscr.io/linuxserver/unifi-controller:8.0.24-ls221
     container_name: unifi-controller
