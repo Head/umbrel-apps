@@ -4,11 +4,10 @@ name: Unifi
 tagline: Unifi Network Controller
 icon: https://www.svgrepo.com/show/349542/ubiquiti.svg
 category: Networking
-version: "1.0.3"
+version: "8.0.24"
 port: 8443
 description: >-
   Copy of the LinuxServer.io Unifi Network Controller
-
 developer: LinuxServer
 website: https://www.linuxserver.io/
 submitter: Head
@@ -18,7 +17,8 @@ support: https://github.com/linuxserver/docker-unifi-controller/issues
 gallery:
   - https://img.community.ui.com/b1ad65ed-c921-409d-a05d-b8275e780ae9/releases/d05b091f-f00c-4ebb-8f42-b77e0adac78b/5e7acd5b-bcea-4f65-a404-37d55f993456
 releaseNotes: >-
-  First version with Unifi 7.5.174
+  Fix volume
+  Update to Unifi 8.0.24-ls221
 dependencies: []
 path: ""
 defaultUsername: ""

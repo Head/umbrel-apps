@@ -4,7 +4,7 @@ name: Unbound
 tagline: Unbound DNS Server
 icon: https://netdata.cloud/img/unbound.png
 category: Networking
-version: "1.0.3"
+version: "1.17.1"
 port: 53
 description: >-
   Copy of the Unbound DNS Server Docker Image
@@ -20,7 +20,7 @@ gallery:
   - 2.jpg
   - 3.jpg
 releaseNotes: >-
-  First version with Unbound 1.18.0
+  First version with Unbound 1.17.1
 dependencies: 
   - pi-hole
 path: ""
